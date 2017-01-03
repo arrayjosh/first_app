@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   get '/hello', to: 'application#hello'
   get '/goodbye', to: 'application#goodbye'
   #get '/', to: 'application#hello'
-  #root 'application#hello'
+  root 'application#hello'
 end
